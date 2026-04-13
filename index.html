@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyberpunk Hangman</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1 class="glow">HANGMAN.exe</h1>
+  <p class="sub">SYSTEM: WORD DECRYPTION MODULE</p>
+
+  <div id="word" class="word"></div>
+
+  <input id="input" maxlength="1" placeholder="A-Z">
+  <button onclick="guess()">EXECUTE</button>
+
+  <div class="panel">
+    <p>WRONG SIGNALS: <span id="wrong"></span></p>
+    <p>STATUS: <span id="status"></span></p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
